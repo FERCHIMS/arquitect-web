@@ -10,11 +10,20 @@
   background-color: aliceblue;
 }
 
-div, li, ul, h1, h2, h3, h4, h5, h6 {
+div, li, ul, h1, h2, h3, h4, h5, h6, p {
   background-color: transparent;
 }
 
 body {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.no-widow {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.no-widow::after {
+  content: "\00A0";
 }

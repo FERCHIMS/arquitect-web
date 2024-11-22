@@ -6,7 +6,7 @@ const Logo = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            if (window.scrollY > 200) {
+            if (window.scrollY > 10) {
                 setIsScrolled(true)
             } else {
                 setIsScrolled(false)
@@ -20,7 +20,7 @@ const Logo = () => {
 
     return (
         <div className="fixed z-50 top-0 left-0">
-            <h2 className={` leading-[0.4] p-8 font-black tracking-tighter font-sans transition-all duration-[1800ms] ease-[cubic-bezier(0.22,1,0.36,1)]   ${isScrolled ? "text-[#212121] text-[2rem]" : " text-white text-[4rem] sm:text-[10rem] "} `}>ARQUI</h2>
+            <h2 className={` leading-[0.4] p-8 font-black tracking-tighter font-sans transition-all duration-[1800ms] ease-[cubic-bezier(0.22,1,0.36,1)]   ${isScrolled ? "text-white text-[2rem]" : " text-white text-[2rem] md:text-[8rem] sm:text-[6rem] "} `}>ARQUI</h2>
         </div>
     )
 }
