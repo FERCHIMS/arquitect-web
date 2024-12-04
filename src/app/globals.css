@@ -14,10 +14,10 @@ div, li, ul, h1, h2, h3, h4, h5, h6, p {
   background-color: transparent;
 }
 
-body {
+/* body {
   padding-left: 2rem;
   padding-right: 2rem;
-}
+} */
 
 .no-widow {
   white-space: pre-wrap;
@@ -27,3 +27,7 @@ body {
 .no-widow::after {
   content: "\00A0";
 }
+
+/* .carousel-slide {
+  width: 10vw;
+} */

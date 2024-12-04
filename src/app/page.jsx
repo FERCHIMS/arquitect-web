@@ -9,7 +9,7 @@ export default function Home() {
       <div>
         <BannerLanding />
       </div>
-      <div>
+      <div className="overflow-hidden">
         <HomeFinished />
       </div>
       <div>

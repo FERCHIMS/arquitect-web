@@ -1,4 +1,4 @@
-import TextComponent from "@/components/ui/TextComponent"
+import TextComponent from "@/components/ui/texts/TextComponent"
 import Image from "next/image"
 import { neueHaasMedium, neueHaasRegular } from "@/app/fonts/Fonts"
 import FooterBanner from "./FooterBanner"
@@ -6,7 +6,7 @@ import FooterBanner from "./FooterBanner"
 const BannerLanding = () => {
 
   return (
-    <div className="flex flex-col w-full h-screen bg-gray-300 ">
+    <div className="flex flex-col w-full h-screen bg-gray-300 pr-[1.4rem] pl-[1.4rem]">
 
       <div className=" h-full w-full justify-end flex-wrap  py-0 z-10 flex overflow-hidden">
         <div className="w-1/2 hidden md:block h-full "></div>
