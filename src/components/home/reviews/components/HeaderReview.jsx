@@ -2,8 +2,8 @@
 
 const HeaderReview = () => {
     return (
-        <div className="w-full bg-green-300 flex flex-wrap h-[50vh]">
-            <div className="w-[50%] hidden lg:flex bg-orange-400">
+        <div className="w-full  flex flex-wrap h-[50vh]">
+            <div className="w-[50%] hidden lg:flex ">
 
             </div>
             <div className="w-full lg:w-[50%] justify-center sm:flex-nowrap  lg:justify-end flex flex-wrap gap-2 font-bold leading-[0.9] ">

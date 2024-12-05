@@ -3,10 +3,10 @@ import React from 'react'
 const VideoBanner = () => {
     return (
         <div className="w-full pt-5">
-            <div className="w-full  h-[40rem] overflow-hidden bg-yellow-400">
+            <div className="w-full  h-[40rem] overflow-hidden ">
 
-                <div className="w-full bg-purple-200  overflow-hidden flex justify-center h-full relative">
-                    <div className=" text-[500%] flex justify-center flex-wrap gap-10 items-center w-full z-50 h-full bg-white bg-opacity-10 ">
+                <div className="w-full  overflow-hidden flex justify-center h-full relative">
+                    <div className=" text-[500%] flex justify-center flex-wrap gap-10 items-center w-full z-50 h-full  ">
                         <h2 className="text-white">IDEAS</h2>
                         <h2 className="text-white">PARA</h2>
                         <div>
@@ -22,10 +22,11 @@ const VideoBanner = () => {
                     <video className="w-full h-full object-cover absolute" loop muted autoPlay>
                         <source src="https://res.cloudinary.com/dtxyn8cnq/video/upload/v1724865778/fw22_you_ve_got_mail_the_sunday_collective_1080p_fvfnyg.mp4" />
                     </video>
+                    <div className='w-full h-full object-cover absolute opacity-[30%] bg-black'></div>
                 </div>
 
             </div>
-            <div className="flex flex-col leading-[1] w-full h-[40rem] text-[4rem] md:text-[8rem] sm:text-[6rem] overflow-hidden">
+            <div className="flex flex-col text-white leading-[1] w-full h-[40rem] text-[4rem] md:text-[8rem] sm:text-[6rem] overflow-hidden">
                 <div>
                     <h2>NUESTROS</h2>
                 </div>

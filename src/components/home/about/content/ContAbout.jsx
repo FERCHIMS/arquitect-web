@@ -6,7 +6,7 @@ import HoverCards from "../sections/HoverCards"
 
 const ContAbout = () => {
     return (
-        <div className="pt-10 w-full bg-green-800 bg-opacity-0 pr-[1.4rem] pl-[1.4rem]">
+        <div className="pt-10 w-full  bg-opacity-0 pr-[1.4rem] pl-[1.4rem]">
             <HeaderAbout />
             <VideoBanner />
             <HoverCards />

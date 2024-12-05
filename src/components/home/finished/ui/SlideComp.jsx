@@ -1,10 +1,10 @@
 'use client'
 import CarouselComp from '@/components/ui/carousel/CarouselComp'
 import { SwiperSlide } from 'swiper/react';
-import Image from 'next/image'
-import React from 'react'
-import CardsSlide from './CardsSlide';
 import { ComponentCard1, ComponentCard2, ComponentCard3 } from './ComponentsCard';
+import ButtonsSlide from '@/components/ui/carousel/ButtonsSlide';
+
+
 /* import 'swiper/css';
 import 'swiper/css/navigation'; */
 
@@ -17,19 +17,23 @@ const images = [
 const SlideComp = () => {
   return (
     <CarouselComp>
-      <div>
+      <ButtonsSlide />
+      <div className='pt-[20vh]'>
         {images.map((image, index) => (
-          <SwiperSlide style={{ width: "47vw", height: "fit-content" }} className='carousel-slide ' key={index}>
+          <SwiperSlide style={{display:'flex',alignItems:"end",  width: "47vw", height: "fit-content", paddingTop:"4rem" }} className='carousel-slide ' key={index}>
             {image.component}
           </SwiperSlide>
         ))}
       </div>
-
     </CarouselComp>
   )
 }
 
 export default SlideComp
+
+{/* <div className='absolute top-[-10%] left-0 z-[1000]'>
+                    <ButtonsSlide />
+                </div> */}
 
 
 

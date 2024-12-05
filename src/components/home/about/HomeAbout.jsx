@@ -4,7 +4,7 @@ import ContAbout from "./content/ContAbout"
 
 const HomeAbout = () => {
     return (
-        <div className="w-full bg-gray-400  ">
+        <div className="w-full bg-gray-500  ">
             <ContAbout />
         </div>
     )

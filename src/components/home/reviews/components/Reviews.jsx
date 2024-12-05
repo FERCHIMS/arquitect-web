@@ -41,7 +41,7 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <div className='w-full bg-blue-400 py-5'>
+    <div className='w-full py-[10rem]'>
       <Swiper
         /* style={{ width: '100vw', height: '100vh' }} */
         speed={800}
@@ -55,18 +55,18 @@ const Reviews = () => {
         mousewheel
         /* spaceBetween={10} */
         slidesPerView={1}
-        className='w-[100%] h-[100%] bg-yellow-300 '
+        className='w-[100%] h-[100%]'
       >
 
         {reviews.map((review) => (
           <SwiperSlide
-            className='flex w-full  justify-center items-center bg-orange-300'
+            className='flex w-full  justify-center items-center'
             key={review.id}
           >
             <div className='w-full h-full items-center flex flex-col'>
-              <div className='w-1/2 h-full flex flex-col justify-between gap-4'>
+              <div className='w-full lg:w-1/2 h-full flex flex-col justify-between gap-4'>
                 <div>
-                  <p className='w-[100%] text-[4rem] font-light leading-[1]'>{review.text} </p>
+                  <p className='w-[100%] text-[2rem] lg:text-[4rem] font-light leading-[1]'>{review.text} </p>
                 </div>
                 <div className=' border-t-[1.5px] border-black leading-[1] font-regular text-[1.2rem]'>
                   <div className='flex flex-col py-5'>

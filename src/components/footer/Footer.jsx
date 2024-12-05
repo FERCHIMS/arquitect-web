@@ -4,7 +4,7 @@ import Contact from '../contact/Contact'
 
 const Footer = () => {
     return (
-        <div className='w-full h-[200vh] bg-blue-700'>
+        <div className='w-full h-[200vh] bg-blue-900'>
             <div className='w-full flex flex-col'>
                 <Social />
                 <Contact />

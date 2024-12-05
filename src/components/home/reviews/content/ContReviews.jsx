@@ -6,7 +6,7 @@ import HeaderReview from "../components/HeaderReview"
 
 const ContReviews = () => {
     return (
-        <div className="w-full bg-purple-400 pt-10 pr-[1.4rem] pl-[1.4rem]">
+        <div className="w-full  pt-10 pr-[1.4rem] pl-[1.4rem]">
             <HeaderReview />
             <Partners />
             <Reviews />

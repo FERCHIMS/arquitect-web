@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const HoverCards = () => {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col text-white">
             <div className="flex items-center flex-wrap justify-between border-t-[1px] py-5 group">
                 <div>
                     <Image className="w-[30%] transition-all duration-700 group-hover:w-[50%]" src="https://iili.io/dNg06zX.png" width={500} height={500} alt="foto" />

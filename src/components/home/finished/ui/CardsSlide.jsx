@@ -11,7 +11,7 @@ const CardsSlide = ({ svg, title, title2, icon, title3, image, backImage }) => {
           {svg}
         </div>
 
-        <div className="flex relative w-full z-[20] px-5 text-black h-[60%] bg-purple-700 flex-col justify-around">
+        <div className="flex relative w-full z-[20] px-5 text-white h-[60%] flex-col justify-around">
 
           <div className=" w-full font-bold ">
             <h2 className="">{title}</h2>
@@ -38,7 +38,7 @@ const CardsSlide = ({ svg, title, title2, icon, title3, image, backImage }) => {
         {/* esta imagen */}
         <div className="absolute z-10 inset-0 w-fit h-full overflow-hidden">
         <Image
-          className="w-full h-full object-cover"
+          className="w-full brightness-[0.2] h-full object-cover"
           src={backImage}
           width={1500}
           height={1500}
